@@ -3,7 +3,7 @@ import { FaGamepad } from "react-icons/fa";
 
 const Top_Bar = () => {
   return (
-    <div className='z-20 flex justify-between h-16 w-screen bg-slate-900 fixed backdrop-blur-none'>
+    <div className='top-0 z-20 flex justify-between h-20 w-screen bg-slate-900 fixed backdrop-blur-none'>
       <FaGamepad className='w-16 flex justify-center text-6xl text-white ml-6 ease-in-out duration-300 hover:text-red-600 hover:cursor-pointer'/>
       <div className='flex space-x-8 text-2xl mr-8 my-2'>
         <span className='navbar'>Discover</span>

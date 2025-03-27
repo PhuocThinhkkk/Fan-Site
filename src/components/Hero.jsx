@@ -5,7 +5,9 @@ import { FaDownload } from "react-icons/fa";
 const Hero = () => {
     let videoId = '66eAN56g7D8';
     return (
-      <div className="flex justify-center items-center w-screen h-screen overflow-x-hidden">
+      
+      <div className="mt-10 relative flex justify-center items-center w-screen h-screen overflow-x-hidden">
+        
         <iframe
           className="scale-130 aspect-video overflow-y-hidden flex object-center object-contain pointer-events-none h-screen overflow-hidden"
           src={`https://www.youtube.com/embed/${videoId}?controls=0&modestbranding=1&showinfo=0&rel=0&autoplay=1&mute=1&playsinline=1&loop=1&playlist=${videoId}`}
