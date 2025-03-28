@@ -6,7 +6,7 @@ const Hero = () => {
     let videoId = '66eAN56g7D8';
     return (
       
-      <div className="mt-10 relative flex justify-center items-center w-screen h-screen overflow-x-hidden">
+      <div className="mt-16 relative flex justify-center items-center w-screen h-screen overflow-hidden align-top">
         
         <iframe
           className="scale-130 aspect-video overflow-y-hidden flex object-center object-contain pointer-events-none h-screen overflow-hidden"

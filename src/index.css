@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer components{
     .navbar {
         @apply font-serif font-bold text-2xl align-middle text-center relative ml-5 mr-5 p-2 border-spacing-8 text-slate-300

@@ -1,20 +1,21 @@
-import Top_Bar from "./components/Top_Bar"
-import Hero from "./components/Hero"
-import TextImagePage from "./components/Text-Image"
+import React from 'react'
+import Hero from './components/Hero.jsx';
+import TopBar from './components/TopBar.jsx';
+import TextImagePage from './components/Text-Image.jsx';
 
 
-function App() {
+const App = () => {
  
-
   return (
-    <>
-      <Top_Bar/>
-      <Hero/>
-      <TextImagePage/>
-    </>
+    <> 
+    <TopBar></TopBar>
+    <Hero></Hero>
+    <TextImagePage></TextImagePage>
     
-
+    </>
+   
   )
 }
+
 
 export default App
